@@ -1,0 +1,34 @@
+.agenda-container {
+    background-color: #f8f8f8;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    max-height: 300px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.agenda-header {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.agenda-list {
+    display: flex;
+    flex-direction: column;
+}
+
+.agenda-item {
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+    background-color: red;
+}
+
+.agenda-time {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.agenda-event {
+    color: #666;
+}
